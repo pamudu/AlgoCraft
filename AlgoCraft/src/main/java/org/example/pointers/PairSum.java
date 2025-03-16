@@ -1,6 +1,4 @@
-package org.example.twoPairs;
-
-import java.util.List;
+package org.example.pointers;
 
 public class PairSum {
     public static void main(String[] args) {
