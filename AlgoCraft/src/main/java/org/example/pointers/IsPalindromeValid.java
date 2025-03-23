@@ -19,7 +19,10 @@ public class IsPalindromeValid {
         // abc123
         // racecar
         // a dog! a panic in a pagoda.
-        System.out.println(isPalindrome("I am AI"));
+        // I am AI
+        //12.02.2021
+        // "", "a"
+        System.out.println(isPalindrome("12.02.2021"));
     }
 
     public static boolean isPalindrome(String word){
