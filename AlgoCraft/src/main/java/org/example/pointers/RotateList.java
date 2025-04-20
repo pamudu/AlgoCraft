@@ -13,7 +13,7 @@ public class RotateList {
         ListNode node_2 = new ListNode(2, node_3);
         ListNode node_1 = new ListNode(1, node_2);
 
-        ListNode node = rotateRight(node_1, 8);
+        ListNode node = rotateRight(node_4, 2);
         while(node != null){
             System.out.print(node.val + " -> ");
             node = node.next;
@@ -26,13 +26,13 @@ public class RotateList {
         }
         HashMap<Integer, ListNode> indexedNodes = new HashMap<>();
         int increment = 1;
-        ListNode temp = head;
-        while(temp != null){
-            indexedNodes.put(increment, temp);
-            if(temp.next != null){
+        ListNode originalHead = head;
+        while(head != null){
+            indexedNodes.put(increment, head);
+            if(head.next != null){
                 increment++;
             }
-            temp = temp.next;
+            head = head.next;
         }
 
         // we need to break the original list from -> list size - k
@@ -41,7 +41,7 @@ public class RotateList {
         if(k >= increment){
             rotate = k % increment;
             if(rotate == 0){
-                return head;
+                return originalHead;
             }
         }
         else{
