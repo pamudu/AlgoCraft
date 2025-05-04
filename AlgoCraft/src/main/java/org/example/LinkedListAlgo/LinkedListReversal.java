@@ -39,6 +39,10 @@ class Node{
         this.val = val;
         this.next = next;
     }
+
+    public Node(int val){
+        this.val = val;
+    }
     public int getVal() {
         return val;
     }
