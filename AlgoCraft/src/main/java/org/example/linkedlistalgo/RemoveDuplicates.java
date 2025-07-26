@@ -1,6 +1,4 @@
-package org.example.LinkedListAlgo;
-
-import java.util.List;
+package org.example.linkedlistalgo;
 
 /*
 * Remove Duplicates from Sorted List

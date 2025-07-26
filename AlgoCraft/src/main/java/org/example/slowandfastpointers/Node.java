@@ -1,4 +1,4 @@
-package org.example.slowAndFastPointers;
+package org.example.slowandfastpointers;
 
 public class Node {
     public int value;

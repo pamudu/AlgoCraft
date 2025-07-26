@@ -1,4 +1,4 @@
-package org.example.slowAndFastPointers;
+package org.example.slowandfastpointers;
 /*
 In number theory, a happy number is defined as a number that, when repeatedly sµbjected
 to the process of squaring its digits and summing those squares, eventually leads to 1.

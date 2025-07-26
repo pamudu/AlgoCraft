@@ -1,4 +1,4 @@
-package org.example.LinkedListAlgo;
+package org.example.linkedlistalgo;
 
 /*
 A cycle means that if you keep following the "next" pointers in the list, you'll eventually revisit

@@ -1,4 +1,4 @@
-package org.example.LinkedListAlgo;
+package org.example.linkedlistalgo;
 
 /*
 Return the head of a singly linked list after removing the kth node from the end of it.

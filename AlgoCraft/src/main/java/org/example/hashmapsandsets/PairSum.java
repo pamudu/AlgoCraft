@@ -1,4 +1,4 @@
-package org.example.hashMapsAndSets;
+package org.example.hashmapsandsets;
 
 import java.util.*;
 

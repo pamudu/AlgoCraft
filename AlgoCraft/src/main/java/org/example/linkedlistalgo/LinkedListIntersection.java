@@ -1,4 +1,4 @@
-package org.example.LinkedListAlgo;
+package org.example.linkedlistalgo;
 
 /*
 Return the node where two singly linked lists intersect If the linked lists don't intersect,

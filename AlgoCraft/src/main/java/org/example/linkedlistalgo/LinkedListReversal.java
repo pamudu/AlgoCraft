@@ -1,4 +1,4 @@
-package org.example.LinkedListAlgo;
+package org.example.linkedlistalgo;
 
 public class LinkedListReversal {
     public static void main(String[] args) {
